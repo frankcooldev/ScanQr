@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generatore e Scanner di QR Code</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-5">Generatore e Scanner di QR Code</h1>
+
+        <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-primary btn-lg" id="generateBtn">Genera QR Code</button>
+        </div>
+
+
+        <div id="qrcode"></div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/qrcode.min.js"></script>
+    <script src="js/jsQR.js"></script>
+    <script src="js/axios.min.js"></script>
+    <script src="js/webcam.min.js"></script>
+    <script src="js/createqr.js"></script>
+
+
+</body>
+</html>
